@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>49D3EDE3-2D6F-40E2-84A0-D8474CE68A38</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KKBrowser</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3B3F7F75-E00D-4EBA-8FD3-8A70BEAAE128</key>
+		<string>https://github.com/cocoajin/TDDDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>简易百度app/KKBrowser.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3B3F7F75-E00D-4EBA-8FD3-8A70BEAAE128</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cocoajin/TDDDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3B3F7F75-E00D-4EBA-8FD3-8A70BEAAE128</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3B3F7F75-E00D-4EBA-8FD3-8A70BEAAE128</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TDDDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
