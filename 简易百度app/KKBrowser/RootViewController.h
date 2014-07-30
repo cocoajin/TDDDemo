@@ -12,6 +12,8 @@
 
 {
     UIWebView *webView;
+    UIView *loadingView;
+
 }
 
 @end

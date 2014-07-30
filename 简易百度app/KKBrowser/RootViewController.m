@@ -8,7 +8,7 @@
 
 #import "RootViewController.h"
 
-@interface RootViewController ()
+@interface RootViewController ()<UIWebViewDelegate>
 
 @end
 
@@ -30,6 +30,7 @@
     
     webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
     webView.backgroundColor = [UIColor whiteColor];
+    webView.delegate = self;
     [self.view addSubview:webView];
 
     
@@ -58,12 +59,42 @@
     [self.view addGestureRecognizer:tapShare];
     
     
+    [self setUPLoadingView];
+    
+}
+
+- (void)setUPLoadingView
+{
+    loadingView  = [[UIView alloc]initWithFrame:self.view.bounds];
+    loadingView.backgroundColor = [UIColor clearColor];
+    UIImageView *imageV = [[UIImageView alloc]initWithFrame:loadingView.bounds];
+    imageV.image = [UIImage imageNamed:@"Default.png"];
+    [loadingView addSubview:imageV];
+    [self.view addSubview:loadingView];
+
+}
+
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    if (loadingView) {
+        [loadingView removeFromSuperview];
+        
+    }
+}
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
+{
+    UIAlertView *alertShow = [[UIAlertView alloc]initWithTitle:@"加载错误" message:[error localizedDescription] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    
+    [alertShow show];
 }
 
 
 - (void)tapTheIndexPage
 {
     NSLog(@" **KK** [ %d ] %s 测试操作 %@",__LINE__,__FUNCTION__,@"双击");
+    [webView goBack];
 
 }
 
