@@ -9,3 +9,4 @@ demo project for TDD
 4.   `重复编译错误测试` 2014-08-07
 5.   `iOS自动打包脚本测试` 2014-08-27
 6.   `iOSCoreGraphics和Animation` 2014-08-28
+7.   `Xcode Python环境` 2014-09-01 
