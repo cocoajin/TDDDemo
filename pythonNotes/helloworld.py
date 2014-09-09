@@ -1,0 +1,1 @@
+#/usr/bin/python	'执行依赖'"这是python 文件模块注释 \ 这是python 基础的结构写法"import sysimport os #导入需要模块debug=True	#定义全局变量class Person():	'Person 类'def test():	'test 函数'	p1=Person()		if debug:		print 'ran test()'				if __name__=='__main__':	test()

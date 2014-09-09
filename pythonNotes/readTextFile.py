@@ -1,0 +1,1 @@
+#!/usr/bin/python#set filenamefname = '/Users/teso/Desktop/make.txt'#attempt to open file for readingtry:	fobj=open(fname,'r')except IOError,e:	print '***file open error:',eelse:	#display content to the screen	for eachline in fobj:		print eachline,			//finally close file	fobj.close()
