@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC0C20831AB852F7006CBF80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0C20821AB852F7006CBF80 /* main.m */; };
+		DC0C20861AB852F7006CBF80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0C20851AB852F7006CBF80 /* AppDelegate.m */; };
+		DC0C20891AB852F7006CBF80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0C20881AB852F7006CBF80 /* ViewController.m */; };
+		DC0C208C1AB852F7006CBF80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0C208A1AB852F7006CBF80 /* Main.storyboard */; };
+		DC0C208E1AB852F7006CBF80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0C208D1AB852F7006CBF80 /* Images.xcassets */; };
+		DC0C20911AB852F7006CBF80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC0C208F1AB852F7006CBF80 /* LaunchScreen.xib */; };
+		DC0C209D1AB852F7006CBF80 /* ComicBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0C209C1AB852F7006CBF80 /* ComicBookTests.m */; };
+		DC0C20A81AB85309006CBF80 /* BookListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0C20A71AB85309006CBF80 /* BookListTableViewController.m */; };
+		DC0C20AE1AB854BA006CBF80 /* SVHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0C20AB1AB854BA006CBF80 /* SVHTTPClient.m */; };
+		DC0C20AF1AB854BA006CBF80 /* SVHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0C20AD1AB854BA006CBF80 /* SVHTTPRequest.m */; };
+		DC0C20B21AB85B43006CBF80 /* ChapterListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0C20B11AB85B43006CBF80 /* ChapterListTableViewController.m */; };
+		DC0C20B51AB85F6B006CBF80 /* ChapterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0C20B41AB85F6B006CBF80 /* ChapterTableViewController.m */; };
+		DC0C20B81AB86434006CBF80 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0C20B71AB86434006CBF80 /* PageViewController.m */; };
+		DC0C20BC1AB86509006CBF80 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0C20BB1AB86509006CBF80 /* AsyncImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC0C20971AB852F7006CBF80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC0C20751AB852F7006CBF80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0C207C1AB852F7006CBF80;
+			remoteInfo = ComicBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC0C207D1AB852F7006CBF80 /* ComicBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComicBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0C20811AB852F7006CBF80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0C20821AB852F7006CBF80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC0C20841AB852F7006CBF80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC0C20851AB852F7006CBF80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC0C20871AB852F7006CBF80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC0C20881AB852F7006CBF80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC0C208B1AB852F7006CBF80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC0C208D1AB852F7006CBF80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC0C20901AB852F7006CBF80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC0C20961AB852F7006CBF80 /* ComicBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComicBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0C209B1AB852F7006CBF80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0C209C1AB852F7006CBF80 /* ComicBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComicBookTests.m; sourceTree = "<group>"; };
+		DC0C20A61AB85309006CBF80 /* BookListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListTableViewController.h; sourceTree = "<group>"; };
+		DC0C20A71AB85309006CBF80 /* BookListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListTableViewController.m; sourceTree = "<group>"; };
+		DC0C20AA1AB854BA006CBF80 /* SVHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVHTTPClient.h; sourceTree = "<group>"; };
+		DC0C20AB1AB854BA006CBF80 /* SVHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVHTTPClient.m; sourceTree = "<group>"; };
+		DC0C20AC1AB854BA006CBF80 /* SVHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVHTTPRequest.h; sourceTree = "<group>"; };
+		DC0C20AD1AB854BA006CBF80 /* SVHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVHTTPRequest.m; sourceTree = "<group>"; };
+		DC0C20B01AB85B43006CBF80 /* ChapterListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterListTableViewController.h; sourceTree = "<group>"; };
+		DC0C20B11AB85B43006CBF80 /* ChapterListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterListTableViewController.m; sourceTree = "<group>"; };
+		DC0C20B31AB85F6B006CBF80 /* ChapterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterTableViewController.h; sourceTree = "<group>"; };
+		DC0C20B41AB85F6B006CBF80 /* ChapterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterTableViewController.m; sourceTree = "<group>"; };
+		DC0C20B61AB86434006CBF80 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		DC0C20B71AB86434006CBF80 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		DC0C20BA1AB86509006CBF80 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		DC0C20BB1AB86509006CBF80 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC0C207A1AB852F7006CBF80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0C20931AB852F7006CBF80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC0C20741AB852F7006CBF80 = {
+			isa = PBXGroup;
+			children = (
+				DC0C207F1AB852F7006CBF80 /* ComicBook */,
+				DC0C20991AB852F7006CBF80 /* ComicBookTests */,
+				DC0C207E1AB852F7006CBF80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC0C207E1AB852F7006CBF80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC0C207D1AB852F7006CBF80 /* ComicBook.app */,
+				DC0C20961AB852F7006CBF80 /* ComicBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC0C207F1AB852F7006CBF80 /* ComicBook */ = {
+			isa = PBXGroup;
+			children = (
+				DC0C20841AB852F7006CBF80 /* AppDelegate.h */,
+				DC0C20851AB852F7006CBF80 /* AppDelegate.m */,
+				DC0C20A61AB85309006CBF80 /* BookListTableViewController.h */,
+				DC0C20A71AB85309006CBF80 /* BookListTableViewController.m */,
+				DC0C20B01AB85B43006CBF80 /* ChapterListTableViewController.h */,
+				DC0C20B11AB85B43006CBF80 /* ChapterListTableViewController.m */,
+				DC0C20B31AB85F6B006CBF80 /* ChapterTableViewController.h */,
+				DC0C20B41AB85F6B006CBF80 /* ChapterTableViewController.m */,
+				DC0C20B61AB86434006CBF80 /* PageViewController.h */,
+				DC0C20B71AB86434006CBF80 /* PageViewController.m */,
+				DC0C20B91AB86509006CBF80 /* AsyncImageView */,
+				DC0C20A91AB854BA006CBF80 /* SVHTTPRequest */,
+				DC0C20871AB852F7006CBF80 /* ViewController.h */,
+				DC0C20881AB852F7006CBF80 /* ViewController.m */,
+				DC0C208A1AB852F7006CBF80 /* Main.storyboard */,
+				DC0C208D1AB852F7006CBF80 /* Images.xcassets */,
+				DC0C208F1AB852F7006CBF80 /* LaunchScreen.xib */,
+				DC0C20801AB852F7006CBF80 /* Supporting Files */,
+			);
+			path = ComicBook;
+			sourceTree = "<group>";
+		};
+		DC0C20801AB852F7006CBF80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC0C20811AB852F7006CBF80 /* Info.plist */,
+				DC0C20821AB852F7006CBF80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC0C20991AB852F7006CBF80 /* ComicBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC0C209C1AB852F7006CBF80 /* ComicBookTests.m */,
+				DC0C209A1AB852F7006CBF80 /* Supporting Files */,
+			);
+			path = ComicBookTests;
+			sourceTree = "<group>";
+		};
+		DC0C209A1AB852F7006CBF80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC0C209B1AB852F7006CBF80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC0C20A91AB854BA006CBF80 /* SVHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				DC0C20AA1AB854BA006CBF80 /* SVHTTPClient.h */,
+				DC0C20AB1AB854BA006CBF80 /* SVHTTPClient.m */,
+				DC0C20AC1AB854BA006CBF80 /* SVHTTPRequest.h */,
+				DC0C20AD1AB854BA006CBF80 /* SVHTTPRequest.m */,
+			);
+			path = SVHTTPRequest;
+			sourceTree = "<group>";
+		};
+		DC0C20B91AB86509006CBF80 /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				DC0C20BA1AB86509006CBF80 /* AsyncImageView.h */,
+				DC0C20BB1AB86509006CBF80 /* AsyncImageView.m */,
+			);
+			path = AsyncImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC0C207C1AB852F7006CBF80 /* ComicBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0C20A01AB852F7006CBF80 /* Build configuration list for PBXNativeTarget "ComicBook" */;
+			buildPhases = (
+				DC0C20791AB852F7006CBF80 /* Sources */,
+				DC0C207A1AB852F7006CBF80 /* Frameworks */,
+				DC0C207B1AB852F7006CBF80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComicBook;
+			productName = ComicBook;
+			productReference = DC0C207D1AB852F7006CBF80 /* ComicBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC0C20951AB852F7006CBF80 /* ComicBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0C20A31AB852F7006CBF80 /* Build configuration list for PBXNativeTarget "ComicBookTests" */;
+			buildPhases = (
+				DC0C20921AB852F7006CBF80 /* Sources */,
+				DC0C20931AB852F7006CBF80 /* Frameworks */,
+				DC0C20941AB852F7006CBF80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC0C20981AB852F7006CBF80 /* PBXTargetDependency */,
+			);
+			name = ComicBookTests;
+			productName = ComicBookTests;
+			productReference = DC0C20961AB852F7006CBF80 /* ComicBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC0C20751AB852F7006CBF80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = www.techshino.com;
+				TargetAttributes = {
+					DC0C207C1AB852F7006CBF80 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DC0C20951AB852F7006CBF80 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DC0C207C1AB852F7006CBF80;
+					};
+				};
+			};
+			buildConfigurationList = DC0C20781AB852F7006CBF80 /* Build configuration list for PBXProject "ComicBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC0C20741AB852F7006CBF80;
+			productRefGroup = DC0C207E1AB852F7006CBF80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC0C207C1AB852F7006CBF80 /* ComicBook */,
+				DC0C20951AB852F7006CBF80 /* ComicBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC0C207B1AB852F7006CBF80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0C208C1AB852F7006CBF80 /* Main.storyboard in Resources */,
+				DC0C20911AB852F7006CBF80 /* LaunchScreen.xib in Resources */,
+				DC0C208E1AB852F7006CBF80 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0C20941AB852F7006CBF80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC0C20791AB852F7006CBF80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0C20B21AB85B43006CBF80 /* ChapterListTableViewController.m in Sources */,
+				DC0C20BC1AB86509006CBF80 /* AsyncImageView.m in Sources */,
+				DC0C20891AB852F7006CBF80 /* ViewController.m in Sources */,
+				DC0C20B81AB86434006CBF80 /* PageViewController.m in Sources */,
+				DC0C20861AB852F7006CBF80 /* AppDelegate.m in Sources */,
+				DC0C20A81AB85309006CBF80 /* BookListTableViewController.m in Sources */,
+				DC0C20AE1AB854BA006CBF80 /* SVHTTPClient.m in Sources */,
+				DC0C20B51AB85F6B006CBF80 /* ChapterTableViewController.m in Sources */,
+				DC0C20AF1AB854BA006CBF80 /* SVHTTPRequest.m in Sources */,
+				DC0C20831AB852F7006CBF80 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0C20921AB852F7006CBF80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0C209D1AB852F7006CBF80 /* ComicBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC0C20981AB852F7006CBF80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0C207C1AB852F7006CBF80 /* ComicBook */;
+			targetProxy = DC0C20971AB852F7006CBF80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC0C208A1AB852F7006CBF80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0C208B1AB852F7006CBF80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC0C208F1AB852F7006CBF80 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0C20901AB852F7006CBF80 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC0C209E1AB852F7006CBF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC0C209F1AB852F7006CBF80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC0C20A11AB852F7006CBF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ComicBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC0C20A21AB852F7006CBF80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ComicBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC0C20A41AB852F7006CBF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ComicBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComicBook.app/ComicBook";
+			};
+			name = Debug;
+		};
+		DC0C20A51AB852F7006CBF80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ComicBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComicBook.app/ComicBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC0C20781AB852F7006CBF80 /* Build configuration list for PBXProject "ComicBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0C209E1AB852F7006CBF80 /* Debug */,
+				DC0C209F1AB852F7006CBF80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0C20A01AB852F7006CBF80 /* Build configuration list for PBXNativeTarget "ComicBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0C20A11AB852F7006CBF80 /* Debug */,
+				DC0C20A21AB852F7006CBF80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0C20A31AB852F7006CBF80 /* Build configuration list for PBXNativeTarget "ComicBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0C20A41AB852F7006CBF80 /* Debug */,
+				DC0C20A51AB852F7006CBF80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC0C20751AB852F7006CBF80 /* Project object */;
+}
