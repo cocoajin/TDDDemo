@@ -1,0 +1,38 @@
+<html>
+    <head><title>JAAndOC2</title></head>
+    <script>
+        
+        //以下方法由oc 调用 js
+        function sdkhi3TO(name)
+        {
+            alert("hello world2!"+name);
+        }
+    
+        function sdkhi2()
+        {
+            alert("hello world2!");
+        }
+    
+        function sdkhito(name)
+        {
+            alert("hello to "+name);
+        }
+        
+        </script>
+    <body>
+        
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        
+        <h1><a href="TCSDK://START?name=cc&age=18&phone=10086">START</a></h1>
+        <h1><a href="javascript:sdkhi2()">SDKHI</a></h1>
+        
+        <!-- 以下由js 调用oc 的方法 -->
+        <h1><a href="javascript:ocsayhi('abc')">OCHI</a></h1>
+        <h1><a href="javascript:alert(pl.fullyName())">OCHI</a></h1>
+
+    </body>
+    
+</html>
