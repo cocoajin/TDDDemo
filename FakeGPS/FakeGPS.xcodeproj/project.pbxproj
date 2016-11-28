@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4393F821DEBCA6200B7CB28 /* JZLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B4393F811DEBCA6200B7CB28 /* JZLocationConverter.m */; };
+		B4393F841DEBCB4500B7CB28 /* JZG.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B4393F831DEBCB4500B7CB28 /* JZG.gpx */; };
+		B4B313011DEBC86B004462E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B313001DEBC86B004462E7 /* main.m */; };
+		B4B313041DEBC86B004462E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B313031DEBC86B004462E7 /* AppDelegate.m */; };
+		B4B313071DEBC86B004462E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B313061DEBC86B004462E7 /* ViewController.m */; };
+		B4B3130A1DEBC86B004462E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B313081DEBC86B004462E7 /* Main.storyboard */; };
+		B4B3130C1DEBC86B004462E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B3130B1DEBC86B004462E7 /* Assets.xcassets */; };
+		B4B3130F1DEBC86B004462E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B3130D1DEBC86B004462E7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4393F801DEBCA6200B7CB28 /* JZLocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZLocationConverter.h; sourceTree = "<group>"; };
+		B4393F811DEBCA6200B7CB28 /* JZLocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZLocationConverter.m; sourceTree = "<group>"; };
+		B4393F831DEBCB4500B7CB28 /* JZG.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JZG.gpx; sourceTree = "<group>"; };
+		B4B312FC1DEBC86B004462E7 /* FakeGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B313001DEBC86B004462E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4B313021DEBC86B004462E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4B313031DEBC86B004462E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4B313051DEBC86B004462E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B4B313061DEBC86B004462E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B4B313091DEBC86B004462E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4B3130B1DEBC86B004462E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4B3130E1DEBC86B004462E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4B313101DEBC86B004462E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4B312F91DEBC86B004462E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4393F7F1DEBCA6200B7CB28 /* JZLocationConverter */ = {
+			isa = PBXGroup;
+			children = (
+				B4393F801DEBCA6200B7CB28 /* JZLocationConverter.h */,
+				B4393F811DEBCA6200B7CB28 /* JZLocationConverter.m */,
+			);
+			path = JZLocationConverter;
+			sourceTree = "<group>";
+		};
+		B4B312F31DEBC86B004462E7 = {
+			isa = PBXGroup;
+			children = (
+				B4B312FE1DEBC86B004462E7 /* FakeGPS */,
+				B4B312FD1DEBC86B004462E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4B312FD1DEBC86B004462E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4B312FC1DEBC86B004462E7 /* FakeGPS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4B312FE1DEBC86B004462E7 /* FakeGPS */ = {
+			isa = PBXGroup;
+			children = (
+				B4B313021DEBC86B004462E7 /* AppDelegate.h */,
+				B4B313031DEBC86B004462E7 /* AppDelegate.m */,
+				B4393F7F1DEBCA6200B7CB28 /* JZLocationConverter */,
+				B4B313051DEBC86B004462E7 /* ViewController.h */,
+				B4B313061DEBC86B004462E7 /* ViewController.m */,
+				B4393F831DEBCB4500B7CB28 /* JZG.gpx */,
+				B4B313081DEBC86B004462E7 /* Main.storyboard */,
+				B4B3130B1DEBC86B004462E7 /* Assets.xcassets */,
+				B4B3130D1DEBC86B004462E7 /* LaunchScreen.storyboard */,
+				B4B313101DEBC86B004462E7 /* Info.plist */,
+				B4B312FF1DEBC86B004462E7 /* Supporting Files */,
+			);
+			path = FakeGPS;
+			sourceTree = "<group>";
+		};
+		B4B312FF1DEBC86B004462E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4B313001DEBC86B004462E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4B312FB1DEBC86B004462E7 /* FakeGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B313131DEBC86B004462E7 /* Build configuration list for PBXNativeTarget "FakeGPS" */;
+			buildPhases = (
+				B4B312F81DEBC86B004462E7 /* Sources */,
+				B4B312F91DEBC86B004462E7 /* Frameworks */,
+				B4B312FA1DEBC86B004462E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakeGPS;
+			productName = FakeGPS;
+			productReference = B4B312FC1DEBC86B004462E7 /* FakeGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4B312F41DEBC86B004462E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "dev.keke@gmail.com";
+				TargetAttributes = {
+					B4B312FB1DEBC86B004462E7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XWSXSK3E4G;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B4B312F71DEBC86B004462E7 /* Build configuration list for PBXProject "FakeGPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4B312F31DEBC86B004462E7;
+			productRefGroup = B4B312FD1DEBC86B004462E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4B312FB1DEBC86B004462E7 /* FakeGPS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4B312FA1DEBC86B004462E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B3130F1DEBC86B004462E7 /* LaunchScreen.storyboard in Resources */,
+				B4B3130C1DEBC86B004462E7 /* Assets.xcassets in Resources */,
+				B4393F841DEBCB4500B7CB28 /* JZG.gpx in Resources */,
+				B4B3130A1DEBC86B004462E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4B312F81DEBC86B004462E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B313071DEBC86B004462E7 /* ViewController.m in Sources */,
+				B4393F821DEBCA6200B7CB28 /* JZLocationConverter.m in Sources */,
+				B4B313041DEBC86B004462E7 /* AppDelegate.m in Sources */,
+				B4B313011DEBC86B004462E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4B313081DEBC86B004462E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4B313091DEBC86B004462E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4B3130D1DEBC86B004462E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4B3130E1DEBC86B004462E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4B313111DEBC86B004462E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4B313121DEBC86B004462E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4B313141DEBC86B004462E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XWSXSK3E4G;
+				INFOPLIST_FILE = FakeGPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoa.FakeGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e2320e3b-6b9e-4544-889b-a54a51b04125";
+				PROVISIONING_PROFILE_SPECIFIER = "TESO_DEV_ALL_*";
+			};
+			name = Debug;
+		};
+		B4B313151DEBC86B004462E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FakeGPS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoa.FakeGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4B312F71DEBC86B004462E7 /* Build configuration list for PBXProject "FakeGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B313111DEBC86B004462E7 /* Debug */,
+				B4B313121DEBC86B004462E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B313131DEBC86B004462E7 /* Build configuration list for PBXNativeTarget "FakeGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B313141DEBC86B004462E7 /* Debug */,
+				B4B313151DEBC86B004462E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4B312F41DEBC86B004462E7 /* Project object */;
+}
