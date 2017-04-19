@@ -23,4 +23,6 @@ demo project for TDD
 18. `FakeGPS` Fake GPS DEMO
 19.	`CryptoppDemo` iOS cryptopp 使用DEMO
 20. `WebServiceTest` iOS webservice 请求示例
+21. `iOS素材处理` ios图片素材1x2x3x自动生成python脚本
+
 
