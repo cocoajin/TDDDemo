@@ -24,5 +24,6 @@ demo project for TDD
 19.	`CryptoppDemo` iOS cryptopp 使用DEMO
 20. `WebServiceTest` iOS webservice 请求示例
 21. `iOS素材处理` ios图片素材1x2x3x自动生成python脚本
+22. `AppleJPEG压缩` Mac iOS API JPEG压缩
 
 
